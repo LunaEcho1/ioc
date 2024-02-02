@@ -1,0 +1,110 @@
+{
+    "indicators": [
+      {
+        "id": 1,
+        "associated": "APT28",
+        "ioc": "139.5.177.205",
+        "relationship": [],
+        "type": "IP"
+      },
+      {
+        "id": 2,
+        "associated": "APT28",
+        "ioc": "80.255.6.15",
+        "relationship": [],
+        "type": "IP"
+      },
+      {
+        "id": 3,
+        "associated": "APT28",
+        "ioc": "89.34.111.107",
+        "relationship": [],
+        "type": "IP"
+      },
+      {
+        "id": 4,
+        "associated": "APT28",
+        "ioc": "86.106.131.229",
+        "relationship": [],
+        "type": "IP"
+      },
+      {
+        "id": 5,
+        "associated": "APT28",
+        "ioc": "139.5.177.206",
+        "relationship": [],
+        "type": "IP"
+      },
+      {
+        "id": 6,
+        "associated": "APT28",
+        "ioc": "185.181.102.203",
+        "relationship": [],
+        "type": "IP"
+      },
+      {
+        "id": 7,
+        "associated": "APT28",
+        "ioc": "185.181.102.204",
+        "relationship": [],
+        "type": "IP"
+      },
+      {
+        "id": 8,
+        "associated": "APT28",
+        "ioc": "169.239.129.31",
+        "relationship": [],
+        "type": "IP"
+      },
+      {
+        "id": 9,
+        "associated": "APT28",
+        "ioc": "213.252.247.112",
+        "relationship": [],
+        "type": "IP"
+      },
+      {
+        "id": 10,
+        "associated": "APT28",
+        "ioc": "23.163.0.59",
+        "relationship": [],
+        "type": "IP"
+      },
+      {
+        "id": 11,
+        "associated": "APT28",
+        "ioc": "86.105.1.123",
+        "relationship": [],
+        "type": "IP"
+      },
+      {
+        "id": 12,
+        "associated": "APT28",
+        "ioc": "185.86.149.218",
+        "relationship": [],
+        "type": "IP"
+      },
+      {
+        "id": 13,
+        "associated": "APT28",
+        "ioc": "185.145.128.80",
+        "relationship": [],
+        "type": "IP"
+      },
+      {
+        "id": 14,
+        "associated": "APT28",
+        "ioc": "89.37.226.106",
+        "relationship": [],
+        "type": "IP"
+      },
+      {
+        "id": 15,
+        "associated": "APT28",
+        "ioc": "94.177.12.238",
+        "relationship": [],
+        "type": "IP"
+      }
+    ]
+  }
+  

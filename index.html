@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Indicators of Compromise Dashboard</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h2>Indicators of Compromise Dashboard</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Associated</th>
+                <th>IOC</th>
+                <th>Type</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody id="indicatorsTableBody">
+            <!-- Indicator rows will be dynamically inserted here -->
+        </tbody>
+    </table>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const indicators = [
+            // Your JSON data here
+        ];
+
+        const indicatorsTableBody = document.getElementById('indicatorsTableBody');
+
+        // Function to create a table row for each indicator
+        function createIndicatorRow(indicator) {
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td>${indicator.id}</td>
+                <td>${indicator.associated}</td>
+                <td>${indicator.ioc}</td>
+                <td>${indicator.type}</td>
+                <td>${indicator.description}</td>
+            `;
+            return row;
+        }
+
+        // Populate the table with indicator rows
+        indicators.forEach(function(indicator) {
+            const row = createIndicatorRow(indicator);
+            indicatorsTableBody.appendChild(row);
+        });
+    });
+</script>
+</body>
+</html>
